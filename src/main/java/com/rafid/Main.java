@@ -12,7 +12,6 @@ public class Main {
         SpringApplication.run(Main.class, args);
     }
 
-//
     @GetMapping("/")
     public GreetResponse greeting() {
         return new GreetResponse("Hello World");
