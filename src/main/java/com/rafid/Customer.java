@@ -50,6 +50,7 @@ public class Customer {
         this.age = age;
     }
 
+    //
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
