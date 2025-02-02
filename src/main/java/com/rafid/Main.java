@@ -9,9 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Main {
     public static void main(String[] args) {
-        System.setProperty("spring.datasource.username", "rafid");
-        System.setProperty("spring.datasource.password", "123456");
         SpringApplication.run(Main.class, args);
+        System.out.println("Hello World!");
     }
 
 }
