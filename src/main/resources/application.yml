@@ -2,20 +2,5 @@ server:
   port: 8080
 
 spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/postgres  # Ensure PostgreSQL is running on port 5432
-    username: postgres
-    password: secret
-    driver-class-name: org.postgresql.Driver  # Optional but recommended
-
-  jpa:
-    hibernate:
-      ddl-auto: create-drop  # Creates tables on startup, deletes on shutdown (use `update` in production)
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect  # Correct spelling
-        format_sql: true
-    show-sql: true  # Enables query logging
-
   main:
     web-application-type: servlet
