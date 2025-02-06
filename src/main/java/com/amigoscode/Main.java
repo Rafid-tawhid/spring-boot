@@ -16,10 +16,6 @@ public class Main {
         SpringApplication.run(Main.class, args);
         System.out.println("Hello World!");
     }
-    @GetMapping("/greet")
-    public  String greet(String name) {
-        return "Hello " + name + "!";
-    }
 
 }
 
