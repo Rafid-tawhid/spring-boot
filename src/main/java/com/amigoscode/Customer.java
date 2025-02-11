@@ -1,6 +1,6 @@
 package com.amigoscode;
 import java.util.Objects;
-import jak
+
 public class Customer  {
     private Integer id;
     private String name;
