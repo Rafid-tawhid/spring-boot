@@ -2,6 +2,7 @@ package com.amigoscode;
 import java.util.Objects;
 //
  //
+ //
 public class Customer  {
     private Integer id;
     private String name;
