@@ -1,6 +1,5 @@
 package com.amigoscode;
 import java.util.Objects;
-//
 
 
 public class Customer  {
